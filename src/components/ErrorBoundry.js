@@ -11,7 +11,7 @@ class ErrorBoudry extends Component {
         this.setState({ hasError: true })
     }
 
-    render(); {
+    render() {
         if (this.state.hasError) {
             return <h1>Ooops. That is not good.</h1>
         }
